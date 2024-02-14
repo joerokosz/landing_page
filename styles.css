@@ -1,0 +1,63 @@
+/*
+  font-family: "Montserrat", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+/*
+
+/* Stylesheet for the Landing Page Project */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: beige;
+}
+
+section#intro {
+  background-image: url("background.jpg");
+  height: 100%;
+  display: table;
+  width: 100%;
+  background-size: cover;
+}
+
+div#content {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 5px;
+  color: white;
+  text-shadow: 4px 0px 6px black;
+}
+
+a#btn {
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  background-color: #FDEFE6;
+  padding: 10px 20px 10px 20px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 4px 3px 6px darkblue;
+  transition: all 1s;
+}
+
+a#btn:hover {
+  background-color: darkblue;
+  color: #FDEFE6;
+  border-color: beige;
+  border-width: 3px;
+}
+
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
